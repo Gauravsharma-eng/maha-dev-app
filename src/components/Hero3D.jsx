@@ -235,7 +235,7 @@ const Hero3D = () => {
             <ambientLight intensity={0.6} />
             <directionalLight position={[3, 4, 2]} intensity={1.8} color="#ffd39e" />
             <pointLight position={[-3, 2, 2]} intensity={2.4} color="#6EA8FE" />
-            <Environment preset="night" />
+            {/* <Environment preset="night" /> -> Ise hata dein */}
             <TrishulDamru />
             <Particles />
             <OrbitControls enableZoom={false} enablePan={false} autoRotate={false} />
